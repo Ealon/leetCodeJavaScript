@@ -1,6 +1,3 @@
-const input = [120, 89, 0, 100, 20, 200, 56, 0, 0, 180, 38, 75];
-const target = 280;
-
 const solution1 = (arr, target) => {
   for (let i = 1; i <= arr.length; i += 1) {
     for (let j = 0; j + i <= arr.length; j++) {
@@ -65,5 +62,8 @@ const solution2Improved = (arr, target) => {
   return arr.slice(startIndex, startIndex + length);
 };
 
-console.log(solution2Improved(input, target));
-// solution2(input, target);
+module.exports = {
+  solution1,
+  solution2,
+  solution2Improved,
+};

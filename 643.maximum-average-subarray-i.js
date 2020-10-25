@@ -10,8 +10,5 @@
  * @param {number} k
  * @return {number}
  */
-var findMaxAverage = function(nums, k) {
-    
-};
+var findMaxAverage = function (nums, k) {};
 // @lc code=end
-

@@ -1,0 +1,30 @@
+{
+  "name": "ealon-leetcode",
+  "version": "1.0.0",
+  "description": "Ealon's leetcode practice",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --watchAll",
+    "prettier": "prettier --write ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ealon/leetCodeJavaScript.git"
+  },
+  "keywords": [
+    "leetcode",
+    "algorithm",
+    "javascript"
+  ],
+  "author": "Yilong HUANG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ealon/leetCodeJavaScript/issues"
+  },
+  "homepage": "https://github.com/Ealon/leetCodeJavaScript#readme",
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "prettier": "^2.1.2"
+  }
+}

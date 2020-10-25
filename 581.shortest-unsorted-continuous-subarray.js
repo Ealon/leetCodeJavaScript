@@ -9,8 +9,5 @@
  * @param {number[]} nums
  * @return {number}
  */
-var findUnsortedSubarray = function(nums) {
-    
-};
+var findUnsortedSubarray = function (nums) {};
 // @lc code=end
-

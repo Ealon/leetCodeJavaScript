@@ -56,14 +56,7 @@ const isPalindrome = x => {
   if (x < 0) {
     return false;
   }
-  return (
-    parseInt(
-      `${x}`
-        .split('')
-        .reverse()
-        .join('')
-    ) === x
-  );
+  return parseInt(`${x}`.split('').reverse().join('')) === x;
 };
 
 // TIPS: it works, but inefficient

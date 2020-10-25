@@ -27,12 +27,7 @@ const reverse = x => {
   }
 
   const k = x < 0 ? -1 : 1;
-  const n = Number(
-    String(Math.abs(x))
-      .split('')
-      .reverse()
-      .join('')
-  );
+  const n = Number(String(Math.abs(x)).split('').reverse().join(''));
   return n > limit - 1 || n < -limit ? 0 : n * k;
 };
 // @lc code=end
