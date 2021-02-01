@@ -75,10 +75,11 @@ const twoSum = function (nums, target) {
     comp[target - nums[i]] = i;
     console.log(comp);
   }
+  return null;
 };
 // @lc code=end
 
 const test = [2, 3, 4, 5, 7, 8, 9];
-console.log(twoSum(test, 10));
+console.log(twoSum(test, 22));
 
 // @lc code=end

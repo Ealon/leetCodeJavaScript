@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Ealon/leetCodeJavaScript#readme",
   "devDependencies": {
-    "jest": "^26.6.1",
-    "prettier": "^2.1.2"
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
   }
 }
