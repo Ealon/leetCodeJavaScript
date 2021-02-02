@@ -34,6 +34,8 @@
  * @return {boolean}
  */
 const isValid = function (s) {
+  if (s === '') return true;
+
   const stack = [];
   const reg = /\(|\)|\[|\]|\{|\}/;
   // const reg = /\(|\[|\{/;
@@ -51,7 +53,10 @@ const isValid = function (s) {
 
     if (reg.test(char)) {
       stack.push(char);
+      continue;
     }
+
+    return false; // ? assuming there are no other characters than brackets
   }
   return stack.length === 0;
 };
