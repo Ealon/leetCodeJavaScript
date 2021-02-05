@@ -17,10 +17,9 @@ const strStr = function (haystack, needle) {
   if (haystack === '') {
     return -1;
   }
-  
 };
 // @lc code=end
 
-const haystackInput = "apple";
-const needleInput = "pl";
-console.log(strStr(haystackInput, needleInput))
+const haystackInput = 'apple';
+const needleInput = 'pl';
+console.log(strStr(haystackInput, needleInput));

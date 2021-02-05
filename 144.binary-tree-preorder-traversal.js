@@ -17,7 +17,5 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-const preorderTraversal = function (root) {
-
-};
+const preorderTraversal = function (root) {};
 // @lc code=end
